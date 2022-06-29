@@ -6,7 +6,7 @@ host = socket.gethostname()
 
 port= 444
 
-clientsocket.connect(('', port)) #Enter Your IP Address in the quotation marks before debugging.
+clientsocket.connect(('', port)) #Enter Your IP Address in the quotation marks before running the Python file.
 
 message = clientsocket.recv(1024)
 
